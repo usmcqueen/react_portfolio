@@ -1,0 +1,20 @@
+.one-column {
+    // display: grid;
+    @include base-grid();
+    grid-template-columns: 1fr;
+    // grid-gap: 21px;
+}
+
+.two-column {
+    @include base-grid();
+    // display: grid;
+    grid-template-columns: 1fr 1fr;
+    // grid-gap: 21px;
+}
+
+// .three-column {
+//     @include base-grid();
+//     // display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     // grid-gap: 21px;
+// }
