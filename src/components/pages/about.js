@@ -7,8 +7,8 @@ export default function () {
         className="left-column"
         style={{
           background: "url(" + profilePicture + ") no-repeat",
-          // height: "800px",
-          // width: "650px",
+          height: "800px",
+          width: "650px",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
